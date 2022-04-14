@@ -98,7 +98,7 @@ map.on('idle', () => {
     if (id == 'author-location-text-title' && visibility === 'none') {
       document.getElementById('infobox').style.display = 'none';
     } else if (id == 'author-location-text-title' && visibility === 'visible') {
-      document.getElementById('infobo').style.display = 'initial';
+      document.getElementById('infobox').style.display = 'initial';
     }
   }
 });
