@@ -7,7 +7,7 @@ const map = new mapboxgl.Map({
   container: 'map', // container ID
   style: 'mapbox://styles/joostburgers/cl1w8a046000q14rrrewcwdem', // style URL
   center: [77.0688997, 20.5272803], // starting position [lng, lat]
-  zoom: 4, // starting zoom
+  zoom: 5, // starting zoom
   bearing: 0, //controls the left-right rotation of the map in degrees
   pitch: 0 //controls the up-down rotation of the map.
 });
